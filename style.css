@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #4a0e54;
+    display: flex;
+    flex-wrap: wrap;
+}
+#AddButton{
+    position:fixed;
+    right: 50%;
+    top: 10px;
+    background-color: #18011c;
+    color: white;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+.note{
+    width: 280px;
+    height: 280px;
+    background-color: #ddaae6;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.toolbar{
+    width: 100%;
+    background-color: #18011c;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+.toolbar i{
+    padding: 5px;
+    cursor: pointer;
+}
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: #ddaae6;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;  
+}
+.note textarea:focus{      /* so that note box is not selected or focused */
+    border:0;
+    outline:0;
+
+}
